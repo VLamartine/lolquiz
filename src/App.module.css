@@ -1,0 +1,9 @@
+.footbar {
+  width: 100%;
+  background-color: purple;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}

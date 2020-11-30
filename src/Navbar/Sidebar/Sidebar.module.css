@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background-color: #eee;
+  border-right: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  justify-content: space-evenly;
+  transition: transform 0.3s ease-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.close {
+  transform: translateX(-100%);
+}
+
+.list {
+  text-decoration: none;
+  padding: 0;
+}
+
+.list_item {
+  background: white;
+  border-top: 1px solid rgb(204, 202, 202);
+  border-right: 1px solid rgb(204, 202, 202);
+  height: 3rem;
+  display: flex;
+  width: 100%;
+}
+
+.list_item:last-of-type{
+  border-bottom: 1px solid rgb(204, 202, 202);
+}
+
+.button {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+
+.button:active {
+  background-color: rgb(204, 202, 202);
+}
