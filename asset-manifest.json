@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lolquiz/static/css/main.67cf91c6.chunk.css",
+    "main.js": "/lolquiz/static/js/main.7dc6079d.chunk.js",
+    "main.js.map": "/lolquiz/static/js/main.7dc6079d.chunk.js.map",
+    "runtime-main.js": "/lolquiz/static/js/runtime-main.69688035.js",
+    "runtime-main.js.map": "/lolquiz/static/js/runtime-main.69688035.js.map",
+    "static/js/2.c6f31507.chunk.js": "/lolquiz/static/js/2.c6f31507.chunk.js",
+    "static/js/2.c6f31507.chunk.js.map": "/lolquiz/static/js/2.c6f31507.chunk.js.map",
+    "static/js/3.52f07d93.chunk.js": "/lolquiz/static/js/3.52f07d93.chunk.js",
+    "static/js/3.52f07d93.chunk.js.map": "/lolquiz/static/js/3.52f07d93.chunk.js.map",
+    "index.html": "/lolquiz/index.html",
+    "static/css/main.67cf91c6.chunk.css.map": "/lolquiz/static/css/main.67cf91c6.chunk.css.map",
+    "static/js/2.c6f31507.chunk.js.LICENSE.txt": "/lolquiz/static/js/2.c6f31507.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69688035.js",
+    "static/js/2.c6f31507.chunk.js",
+    "static/css/main.67cf91c6.chunk.css",
+    "static/js/main.7dc6079d.chunk.js"
+  ]
+}
