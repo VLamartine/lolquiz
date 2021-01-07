@@ -48,7 +48,7 @@ const App = () =>  {
 
   useEffect(() => {
     const fetchData = async () => {
-      const version = (await fetch("http://ddragon.leagueoflegends.com/api/versions.json")
+      const version = (await fetch("https://ddragon.leagueoflegends.com/api/versions.json")
                         .then(async(r) => await r.json())
                       )[0]; 
       setVersion(version);

@@ -13,7 +13,7 @@ const AudioQuestion = ({version, questionOptions, champion, updateScore, nextQue
 
   const subPath = mode === "ban" ? myConsts.CDRAGON_BAN_URL : myConsts.CDRAGON_SELECT_URL;
   const imageUrl = `${myConsts.DDRAGON_BASE_URL}/${version}/img/champion/${getChampionKeyById(champion)}.png`;
-  const audioUrl = `${myConsts.CDRAGON_BASE_URL}/10.23/${subPath}/${champion}.ogg`;  
+  const audioUrl = `${myConsts.CDRAGON_BASE_URL}/latest/${subPath}/${champion}.ogg`;  
 
   useEffect(() => {
     setAnswered(false);
